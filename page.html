@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-master="index.html" wp-template-preview-url wp-template-export-as="page.php">
+    <head>
+        <meta charset="utf-8" wp-no-export>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <meta name="description" content="<?php bloginfo( 'description' ); ?>">
+        <meta name="author" content="The Pinegrow Team">
+        <title>Pinegrow Starter Theme 2</title>
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <link href="style.css" rel="stylesheet" type="text/css" wp-no-export>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/woocommerce.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="hfeed site" id="page">
+            <div wp-site-content>
+                <div id="page-wrapper" class="wrapper" cms-post-content>
+                    <div class="container" id="content" tabindex="-1">
+                        <div class="row">
+                            <div class="col-md-4 widget-area" wp-if-get-theme-mod="show_left_sidebar" role="complementary" id="left-sidebar" wp-hide>
+                                <aside wp-dynamic-sidebar="left-sidebar" wp-dynamic-sidebar-set="element"></aside>
+                                <h3 wp-no-export>Left Sidebar</h3>
+                                <p wp-no-export>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                            </div>
+                            <div class="col-md-12 content-area" id="primary">
+                                <main class="site-main" id="main">
+                                    <div wp-template-part wp-template-part-slug="loop-templates/content-page" wp-include-template-part wp-include-template-part-slug="loop-templates/content-page" data-pg-name="content-page template" wp-template-part-content>
+                                        <article class="" cms-post>
+                                            <header class="entry-header">
+                                                <h1 cms-post-title>Page Title</h1>
+                                                <div class="entry-meta">
+                                                    <p wp-no-export>Posted on <span wp-the-modified-date wp-the-modified-date-set="content">March 18, 2018</span> by <span><a href="" wp-the-author wp-the-author-set="content" wp-href="author_posts">youremail@gmail.com</a></span></p>
+                                                </div>
+                                            </header>
+                                            <div class="entry-content">
+                                                <p cms-post-content>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
+                                                <div wp-link-pages data-pg-name="Page Links for Paginated Posts"></div>
+                                            </div>
+                                            <footer class="entry-footer">
+                                                <span class="tags-links" wp-the-tags="Tags: " wp-the-tags-sep=", " wp-the-tags-set="content" wp-if-has-tag>Tagged</span>
+                                                <span class="edit-link" wp-edit-post-link="<p class=&quot;text-muted&quot;>Edit Post</p>">Edit Post</span>
+                                            </footer>
+                                        </article>
+                                        <div wp-if-comments-open wp-if-get-comments-number wp-comments-template="/comments.php" data-pg-name="Comments Template" wp-if-is-page></div>
+                                    </div>
+                                </main>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.min.js" wp-no-export data-pg-name="Local jQuery"></script>
+        <script wp-enqueue-script="jquery" data-pg-name="Enqueue WP jQuery"></script>
+        <script src="assets/js/carousel_init.js" wp-enqueue-script wp-enqueue-script-in-footer="true"></script>
+        <script src="assets/js/popper.js" wp-enqueue-script wp-enqueue-script-in-footer="true"></script>
+        <script src="bootstrap/js/bootstrap.min.js" wp-enqueue-script wp-enqueue-script-in-footer="true"></script>
+        <script src="assets/js/outline.js" wp-enqueue-script wp-enqueue-script-in-footer="true"></script>
+    </body>
+</html>

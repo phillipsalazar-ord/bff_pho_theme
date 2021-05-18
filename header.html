@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-export-as="header.php" wp-template-master="index.html" wp-template-post-template-name="header" wp-template-post-template wp-template-define-master-page>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+</div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+    <div style="background-color: rgba(0, 0, 0, 0.58); height: 575px;">
+        <nav class="navbar navbar-dark navbar-expand-lg" style="margin-bottom: 130px;"> 
+            <div class="container">
+                <div data-pg-name="Brand Without Custom Logo" wp-if-custom="has_custom_logo()" wp-if-custom-not="true" style="height: 90px; width: 90px;">
+                    <img src="BFF-Logo-White.png" width="90px" height="90px" style="width: 90px; height: 90px;"/>
+                </div>
+                <div wp-call-function="the_custom_logo();" data-pg-name="Brand With Custom Logo" wp-else-if></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler6" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'st2' ); ?>"> 
+                    <span class="navbar-collapse navbar-toggler-icon"></span> 
+                </button>
+                <div id="navbarToggler6" class="navbar navbar-collapse"> 
+                    <ul class="navbar-nav mt-2 mt-lg-0 ml-auto " wp-nav-menu="primary" wp-nav-menu-type="bootstrap4" wp-nav-menu-depth="2" wp-nav-menu-theme-location="primary"> 
+                        <li class="nav-item active" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;"> 
+                            <a class="nav-link" href="#" wp-nav-menu>Home </a> 
+                        </li>                         
+                        <li class="nav-item dropdown" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;"> 
+                            <a class="active dropdown-toggle nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a> 
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                                <a class="dropdown-item" href="#">Action</a> 
+                                <a class="dropdown-item" href="#">Another action</a> 
+                                <a class="dropdown-item" href="#">Something else here</a> 
+                            </div>                             
+                        </li>
+                        <li class="nav-item" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;"> 
+                            <a class="active nav-link" href="#">Delivery</a> 
+                        </li>
+                        <li class="nav-item" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;"> 
+                            <a class="active nav-link" href="#">Gallery</a> 
+                        </li>
+                        <li class="nav-item" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;"> 
+                            <a class="active nav-link" href="#">Franchise</a> 
+                        </li>                         
+                        <li class="nav-item" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;">
+                            <a class="active nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item" style="font-family: 'Open Sans', sans-serif; text-transform: uppercase; font-size: 13px;">
+                            <a class="active nav-link" href="#">BLOG</a>
+                        </li>                         
+                    </ul>                     
+                </div>
+            </div>             
+        </nav>
+        <div class="container">
+            <h1 class="display-3" cms-editable="jumbotron_heading_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Heading Color" cms-editable-style-important cms-editable-section="header_settings" style="font-family: 'Alex Brush', cursive; color: #dfc15e; text-align: center; font-size: 58px;">Welcome To</h1>
+            <p class="lead" cms-editable="jumbotron_text_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Paragraph Color" cms-editable-section="header_settings" style="font-family: 'Palanquin Dark', sans-serif; font-weight: 700; font-size: 41px; text-align: center; color: #ffffff; margin-bottom: 0px;">BFF ASIAN GRILL &amp; SPORTS BAR</p>
+            <p class="lead" cms-editable="jumbotron_text_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Paragraph Color" cms-editable-section="header_settings" style="font-family: 'Abhaya Libre', serif; font-weight: 700; font-size: 16px; text-align: center; color: #ffffff;">YOUR ONE-STOP DESTINATION FOR ASIAN-INSPIRED FOOD AND BEST BREWS!</p>
+        </div>
+    </div>
+</html>
